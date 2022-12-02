@@ -1,9 +1,11 @@
+import AuthenticatedPage from './pages/AuthenticatedPage';
 import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <Home/>  
+      <AuthenticatedPage/>  
+      {/* <Home/> */}
     </div>
   );
 }

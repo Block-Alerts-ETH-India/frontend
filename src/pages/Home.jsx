@@ -7,7 +7,7 @@ import '../styles/Home.scss'
 
 const Home = () => {
   return (
-   <div className='home-wrapper'>
+   <div>
     <Header/>
 
     <div className='flex justify-center items-center home-container mx-auto max-w-7xl mt-4 '>

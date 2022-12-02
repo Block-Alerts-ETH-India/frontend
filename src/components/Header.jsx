@@ -5,7 +5,7 @@ import "../styles/Header.scss";
 
 const Header = () => {
   return (
-    <header className="header-wrapper flex justify-between p-10 px-20  mx-auto ">
+    <header className="header-wrapper flex justify-between p-10 mx-auto ">
       <div className="logo flex items-center justify-between text-3xl font-semibold">
         <FaBell className="mr-2 logo-icon" />
         block<span className="logo-alert">Alert</span>
