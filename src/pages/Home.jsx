@@ -10,7 +10,7 @@ const Home = () => {
    <div>
     <Header/>
 
-    <div className='flex justify-center items-center home-container mx-auto max-w-7xl mt-4 '>
+    <div className='flex justify-center items-center home-container mx-auto max-w-7xl mt-4'>
 
     {/* left container  */}
     <div className='home-left-container flex flex-col justify-between max-w-xl'>
