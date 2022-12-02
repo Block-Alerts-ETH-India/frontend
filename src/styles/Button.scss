@@ -1,3 +1,18 @@
 .button{
     background-color: var(--color-red);
 }
+.btn-bottom{
+    display: flex;
+    justify-content: center;
+    
+    align-items: baseline;
+}
+.auth-box img{
+
+    padding: 20px;
+}
+.btn-border{
+    padding:10px 60px  ;
+    background-color: var(--color-bg);
+    border: 1px solid black;
+}
