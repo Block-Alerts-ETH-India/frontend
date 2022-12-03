@@ -1,6 +1,20 @@
 import React from "react";
 import Header from "../components/Header";
+
+import { useState, useEffect } from "react";
+
 const ShowAlert = () => {
+
+  const [alerts, setAlerts] = useState([]);
+  fetch("http://127.0.0.1:8080/alert")
+    .then(response => {
+      return response.json()
+    })
+    .then(data => {
+      console.log(data.data);
+      setAlerts(data.data)
+    })
+
   return (
     <div>
       <Header />
