@@ -6,6 +6,7 @@ import "../styles/Button.scss";
 import { Link } from 'react-router-dom'
 // import "../styles/ModalPop.scss"
 import {Modal } from 'antd';
+import { Link } from "react-router-dom";
 
 
 const AuthenticatedPage = () => {
@@ -59,6 +60,7 @@ const AuthenticatedPage = () => {
             ></Button>
           </div>
         </div>
+        <Link to="/dashboard">
         <div className="auth-box ">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
@@ -72,6 +74,7 @@ const AuthenticatedPage = () => {
             ></Button>
           </div>
         </div>
+        </Link>
       </div>
     </div>
   );
