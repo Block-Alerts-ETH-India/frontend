@@ -6,8 +6,6 @@ import "../styles/Button.scss";
 import { Link } from 'react-router-dom'
 // import "../styles/ModalPop.scss"
 import {Modal } from 'antd';
-import { Link } from "react-router-dom";
-
 
 const AuthenticatedPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
