@@ -3,6 +3,7 @@ import AuthenticatedPage from './pages/AuthenticatedPage';
 import Home from './pages/Home';
 import Auth from './pages/Auth';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import ShowAlert from './pages/ShowAlert';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/started' element={<AuthenticatedPage/>}></Route>
+      <Route path='/dashboard' element={<ShowAlert/>}></Route>
      
 
       </Routes>
