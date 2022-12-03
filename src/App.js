@@ -1,4 +1,3 @@
-// import ModalPop from './components/ModalPop'
 import AuthenticatedPage from './pages/AuthenticatedPage';
 import Home from './pages/Home';
 import Auth from './pages/Auth';
