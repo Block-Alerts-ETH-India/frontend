@@ -51,12 +51,14 @@ const AuthenticatedPage = () => {
             alt=""
             srcset=""
           />
+          <Link to="/alerts">
           <div className="btn-bottom">
             <Button
               customClass={"absolute text-center btn-border"}
               text={"Show Alerts"}
             ></Button>
           </div>
+          </Link>
         </div>
         <Link to="/dashboard">
         <div className="auth-box ">

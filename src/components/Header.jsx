@@ -16,11 +16,11 @@ const Header = () => {
       </Link>
 
     
-    
+{/*     
     <div className="items-center cursor-pointer font-medium">
         <Button text="Connect Wallet" />
       </div>
-   
+    */}
     
     </header>
   );

@@ -13,7 +13,7 @@ function App() {
       <Route path='/' element={<Home/>}></Route>
       <Route path='/started' element={<AuthenticatedPage/>}></Route>
      <Route path='/create-alert' element={<CreateAlert/>}></Route>
-      <Route path='/dashboard' element={<ShowAlert/>}></Route>
+      <Route path='/alerts' element={<ShowAlert/>}></Route>
       </Routes>
     </div>
     </BrowserRouter>

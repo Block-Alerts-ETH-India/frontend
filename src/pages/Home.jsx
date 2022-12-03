@@ -17,9 +17,9 @@ const Home = () => {
     <div className='home-left-container flex flex-col justify-between max-w-xl'>
     <div className='mt-20'>
 
-      <p className='text-3xl font-bold mb-10'>Alerts now managed!</p>
+      <p className='text-4xl font-bold mb-10'>Alerts now managed!</p>
 
-      <p className='mb-10'>Block Alerts provide a platform to set up alerts in your smart contracts. Whether you want to get alerts for any transaction or events, the block alerts platform will listen to the alert and send it to your Slack, MS teams, etc.
+      <p className='mb-10 text-lg'>Block Alerts provide a platform to set up alerts in your smart contracts. Whether you want to get alerts for any transaction or events, the block alerts platform will listen to the alert and send it to your Slack, MS teams, etc.
       </p>
 
      <Link to="/started" >
