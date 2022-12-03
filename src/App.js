@@ -1,15 +1,22 @@
-import ModalPop from './components/ModalPop';
+// import ModalPop from './components/ModalPop'
 import AuthenticatedPage from './pages/AuthenticatedPage';
 import Home from './pages/Home';
+import Auth from './pages/Auth';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <AuthenticatedPage/>  
-      {/* <Home/> */}
-      {/* <ModalPop/> */}
+      <Routes>
+      <Route path='/' element={<Home/>}></Route>
+      <Route path='/started' element={<AuthenticatedPage/>}></Route>
+     
+
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

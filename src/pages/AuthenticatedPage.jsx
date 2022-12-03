@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import "../styles/AuthenticatedPage.scss";
 import Button from "../components/Button";
 import "../styles/Button.scss";
-import "../styles/ModalPop.scss"
+// import "../styles/ModalPop.scss"
 import {Modal } from 'antd';
 
 

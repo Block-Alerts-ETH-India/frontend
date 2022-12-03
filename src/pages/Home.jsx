@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import { BsArrowRight } from 'react-icons/bs'
 import bellFunction from '../assets/BellFunction.png'
 import '../styles/Home.scss'
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
@@ -21,9 +22,11 @@ const Home = () => {
       <p className='mb-10'>Block Alerts provide a platform to set up alerts in your smart contracts. Whether you want to get alerts for any transaction or events, the block alerts platform will listen to the alert and send it to your Slack, MS teams, etc.
       </p>
 
-      <div className='flex '>
+     <Link to="/started" >
+     <div className='flex '>
       <Button text="Get Started" suffixLogo={<BsArrowRight/>} customClass={"getStarted"} />
       </div>
+     </Link>
 
     </div>
 
