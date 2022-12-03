@@ -38,14 +38,14 @@ function handleSubmit(event) {
 
       
         <div>
-        <label className='text-md font-medium' >Alert name</label><br/>
-        <input type="text" placeholder='Enter alert name' className='px-6 py-2 rounded-md mt-2'  value={address}
+        <label className='text-md font-medium' >Smart Contract Adress</label><br/>
+        <input type="text" placeholder='Enter your smart Contract Address ' className='px-6 py-2 rounded-md mt-2'  value={address}
           onChange={(e) => setAddress(e.target.value)} />
         </div>
 
         <div>
-        <label className='text-md font-medium' >Alert name</label><br/>
-        <input type="text" placeholder='Enter alert name' className='px-6 py-2 rounded-md mt-2'  value={slackhook}
+        <label className='text-md font-medium' >Web Hook</label><br/>
+        <input type="text" placeholder='Enter your webhook' className='px-6 py-2 rounded-md mt-2'  value={slackhook}
           onChange={(e) => setSlackhook(e.target.value)} />
         </div>
 
