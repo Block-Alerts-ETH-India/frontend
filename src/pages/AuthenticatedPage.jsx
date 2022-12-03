@@ -4,8 +4,10 @@ import "../styles/AuthenticatedPage.scss";
 import Button from "../components/Button";
 import "../styles/Button.scss";
 import { Link } from 'react-router-dom'
-// import "../styles/ModalPop.scss"
 import {Modal } from 'antd';
+import createIcon from '../assets/create.png';
+import alertIcon from '../assets/alert.png';
+import dashboardIcon from '../assets/dashboard.png';
 
 const AuthenticatedPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,15 +29,19 @@ const AuthenticatedPage = () => {
 
       <div className="text-center flex justify-around items-center mt-20  flex-wrap">
         {/* <a onClick={showModal} href="#"> */}
-          <div className="auth-box ">
+          <div className="flex flex-col justify-center items-center auth-box ">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
-              alt=""
+              // src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
+              src={createIcon}
+              style={{width:'10rem', height:'10rem'}}
+              alt="create alert"
               srcset=""
+
+              className="icons"
             />
             
              <Link to="/create-alert">
-             <div className="btn-bottom">
+             <div className="btn-bottom mt-2">
              <Button
                 customClass={"absolute text-center btn-border"}
                 text={"Create Alert"}
@@ -45,11 +51,13 @@ const AuthenticatedPage = () => {
            
           </div>
         {/* </a> */}
-        <div className="auth-box ">
+        <div className="flex flex-col justify-center items-center auth-box ">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
-            alt=""
+            src={alertIcon}
+            style={{width:'11rem', height:'11rem'}}
+            alt="alerts"
             srcset=""
+            className="icons"
           />
           <Link to="/alerts">
           <div className="btn-bottom">
@@ -61,11 +69,14 @@ const AuthenticatedPage = () => {
           </Link>
         </div>
         <Link to="/dashboard">
-        <div className="auth-box ">
+
+        <div className="flex flex-col justify-center items-center auth-box ">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
+            src={dashboardIcon}
+            style={{width:'11rem', height:'11rem'}}
             alt=""
             srcset=""
+            className="icons"
           />
           <div className="btn-bottom">
             <Button
