@@ -1,11 +1,14 @@
+import ModalPop from './components/ModalPop';
 import AuthenticatedPage from './pages/AuthenticatedPage';
 import Home from './pages/Home';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <AuthenticatedPage/>   */}
-      <Home/>
+      <AuthenticatedPage/>  
+      {/* <Home/> */}
+      {/* <ModalPop/> */}
     </div>
   );
 }
